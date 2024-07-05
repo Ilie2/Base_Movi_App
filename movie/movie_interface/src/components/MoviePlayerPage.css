@@ -1,0 +1,24 @@
+/* MoviePlayerPage.css */
+
+.movie-player-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .movie-player-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .movie-player-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details {
+    text-align: left;
+  }
+  
