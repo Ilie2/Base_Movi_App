@@ -1,0 +1,42 @@
+.review-page {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-form input, .review-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.review-form textarea {
+  resize: vertical; /* Permite redimensionarea verticală a câmpului de text */
+}
+
+.review-form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background-color: #555;
+}
